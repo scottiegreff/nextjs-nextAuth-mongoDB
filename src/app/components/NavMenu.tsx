@@ -3,12 +3,12 @@ import Link from "next/link";
 import { signIn, signOut, useSession } from "next-auth/react";
 import { usePathname } from "next/navigation";
 import { FaUserAlt } from "react-icons/fa";
-import { FcFrame } from "react-icons/fc";
+import { CiBeerMugFull } from "react-icons/ci";
 
 const ACTIVE_ROUTE =
   "py-1 px-2 rounded-full hover:bg-black hover:text-white hover:rounded-lg hover:transition hover:duration-250";
 const INACTIVE_ROUTE =
-  "py-1 px-2 text-black hover:text-gray-300 hover:bg-gray-700";
+  "py-1 px-2 text-black hover:text-black hover:bg-white";
 
 function AuthButton() {
   const { data: session } = useSession();
@@ -56,9 +56,9 @@ export default function NavMenu() {
       <div className="flex justify-between items-center px-20 py-10 ">
         {/* logo here */}
         <div className="flex items-center">
-          <FcFrame className="text-5xl" />
+          <CiBeerMugFull className="text-5xl" />
           <a href="/" className="mx-5">
-            MET ART
+            BEERS
           </a>
         </div>
 

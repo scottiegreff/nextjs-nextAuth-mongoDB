@@ -9,7 +9,7 @@ export default async function ServerActionPage() {
     return session?.user?.name || "Not Logged In";
   };
   return (
-    <div>
+    <div className="m-10">
       <WhoAmIButton whoAmIAction={whoAmI} />
     </div>
   );

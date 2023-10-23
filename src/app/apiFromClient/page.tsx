@@ -12,7 +12,7 @@ export default function APITestPage() {
 
 
   return (
-    <div>
+    <div className="m-10">
       <div>
         API Route From <span className="font-bold underline">Client</span>
       </div>
