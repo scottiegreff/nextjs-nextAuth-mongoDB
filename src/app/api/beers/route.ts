@@ -5,7 +5,9 @@ import { NextRequest, NextResponse } from "next/server";
 export const POST = async function (req: NextRequest, res: NextResponse) {
   if (req.method == "POST") {
     try {
+      console.log("Request:", req);
       const body = await req.json();
+      console.log("Body:", body);
       const { name } = body;
       await connectMongoDB();
       const beer = await Beer.create({ name });

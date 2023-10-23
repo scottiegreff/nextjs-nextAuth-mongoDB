@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyB_CR9z0_4gpQpQOfS0HdIR-H6pBQNdZ6g",
-  authDomain: "met-art-project-630e9.firebaseapp.com",
-  projectId: "met-art-project-630e9",
-  storageBucket: "met-art-project-630e9.appspot.com",
-  messagingSenderId: "50195448799",
-  appId: "1:50195448799:web:c94a9864b09ef188dd7a6a"
+  apiKey: "AIzaSyCngnSSMn0lzxgauEzo3Aniyn-8CqkbqwA",
+  authDomain: "beer-app-4afe7.firebaseapp.com",
+  projectId: "beer-app-4afe7",
+  storageBucket: "beer-app-4afe7.appspot.com",
+  messagingSenderId: "321088658069",
+  appId: "1:321088658069:web:a5d84188e2eaadfba9599c"
 };
 
 // Initialize Firebase
