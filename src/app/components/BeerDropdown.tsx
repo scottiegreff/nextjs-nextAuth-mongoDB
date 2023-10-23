@@ -11,7 +11,7 @@ export default function beerDropdown({
   const [selectedBeer, setSelectedBeer] = useState("");
   
   useEffect(() => {
-    console.log("CHANGE OF BEER NAME", selectedBeer);
+    console.log("CHANGED BEER NAME", selectedBeer);
   }, [selectedBeer]);
 
   return (
